@@ -1,5 +1,5 @@
 function counts(teamA, teamB) {
-  let Totalscores = [];
+  let Totalscore = [];
   for (n = 0; n < teamB.length; n++) {
     let scorecount = 0;
     for (m = 0; m < teamA.length; m++) {
@@ -7,10 +7,10 @@ function counts(teamA, teamB) {
         scorecount++;
       }
     }
-    Totalscores.push(scorecount);
+    Totalscore.push(scorecount);
   }
 
-  return Totalscores;
+  return Totalscore;
 }
 //Example Test
 teamA = [1, 4, 2, 4, 3];
